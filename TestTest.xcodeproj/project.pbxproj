@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0164BD518DC2D8400C7F354 /* Support.m in Sources */ = {isa = PBXBuildFile; fileRef = D0164BD418DC2D8400C7F354 /* Support.m */; };
 		D061762E18DC02010003B52C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D061762D18DC02010003B52C /* Foundation.framework */; };
 		D061763118DC02010003B52C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D061763018DC02010003B52C /* main.m */; };
 		D061763518DC02010003B52C /* TestTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D061763418DC02010003B52C /* TestTest.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D0164BD318DC2D8400C7F354 /* Support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Support.h; sourceTree = "<group>"; };
+		D0164BD418DC2D8400C7F354 /* Support.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Support.m; sourceTree = "<group>"; };
 		D061762A18DC02010003B52C /* TestTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D061762D18DC02010003B52C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D061763018DC02010003B52C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				D061763018DC02010003B52C /* main.m */,
 				D061763418DC02010003B52C /* TestTest.1 */,
 				D061763218DC02010003B52C /* Supporting Files */,
+				D0164BD318DC2D8400C7F354 /* Support.h */,
+				D0164BD418DC2D8400C7F354 /* Support.m */,
 			);
 			path = TestTest;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D061763118DC02010003B52C /* main.m in Sources */,
+				D0164BD518DC2D8400C7F354 /* Support.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +257,7 @@
 				D061763A18DC02010003B52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
