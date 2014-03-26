@@ -100,12 +100,38 @@ int main(int argc, const char * argv[])
         int y = 9;
         int* px = &x;
         int* py = &y;
-    }
+        swap(&x, &y);
+        NSLog(@"x = %d,y = %d", x, y);
+        NSLog(@"px = %p, py = %p", px, py);
+        
+        // Pointer Array Test
+        int arraylist[] = {4,20,10,-3,34};
+        int* pp = &arraylist[0];
+        NSLog(@"%p",arraylist);
+        NSLog(@"%p",pp);
+        
+        // Char Pointer String Test
+        char* str = "I LOVE IOS";
+        NSLog(@"%s",str);
+        str += 7;
+        NSLog(@"%s",str);
+        
+        // Struct Test
+        struct Point
+        {
+            int x;
+            int y;
+        } p1 = {0,0};
+        struct Point p2;
+        p2.x = 5; p2.y = 5;
+        NSLog(@"%d", p2.x - p1.x);
+        NSLog(@"%d", p2.y - p1.y);
+    
     return 0;
     
     
 }
 
-
+}
 
 
